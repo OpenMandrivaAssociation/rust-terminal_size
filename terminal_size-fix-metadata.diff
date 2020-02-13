@@ -1,0 +1,14 @@
+<<<<<<< HEAD
+--- terminal_size-0.1.9/Cargo.toml	2020-01-05T23:29:06+00:00
++++ terminal_size-0.1.9/Cargo.toml	2020-01-07T18:15:14.630826+00:00
+=======
+--- terminal_size-0.1.10/Cargo.toml     2020-01-08T21:21:37+00:00
++++ terminal_size-0.1.10/Cargo.toml     2020-01-11T16:21:22.903179+00:00
+>>>>>>> Update to 0.1.10
+@@ -22,6 +22,3 @@
+ repository = "https://github.com/eminence/terminal-size"
+ [dependencies.libc]
+ version = "0.2"
+-[target."cfg(windows)".dependencies.winapi]
+-version = "0.3"
+-features = ["handleapi", "processenv", "winbase", "wincon", "winnt"]
